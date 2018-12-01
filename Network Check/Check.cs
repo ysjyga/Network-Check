@@ -16,8 +16,6 @@ namespace Network_Check
             Call_Telnet ct = new Call_Telnet();
             string r_tel = ct.CallTelnet(host, prot);
             return r_tel;
-
-
         }
 }
 }

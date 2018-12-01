@@ -42,8 +42,8 @@ namespace Network_Check
             }
             else
             {
-                Console.WriteLine("失败");
-                RoundtripTime = "失败";
+                Console.WriteLine("超时");
+                RoundtripTime = "超时";
             }
             return RoundtripTime;
         }
